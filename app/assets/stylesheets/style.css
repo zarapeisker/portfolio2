@@ -1,23 +1,9 @@
-/*h1 {
-  text-align: center;
-  font-family: 'Sniglet', cursive;
-  color: white;
-}*/
-
 body {
   background-image: url("bubbles.jpg");
   background-repeat: no-repeat;
   background-size: 1500px 1196px;
   background-attachment: fixed;
 }
-
-/*header {
-  padding-top:40px;
-}*/
-
-/*p {
-  vertical-align: middle;
-}*/
 
 #content {
   border-radius: 50%;
@@ -71,18 +57,13 @@ body {
   -webkit-animation-duration:30s;
 }
 
-/*ul.solarsystem li.earth span {
-    -webkit-animation-iteration-count:infinite;
-    -webkit-animation-timing-function:linear;
-    -webkit-animation-name:moon;*/
-
-/*@-webkit-keyframes orbit {
+@-webkit-keyframes orbit {
 from { -webkit-transform:rotate(0deg) }
 to { -webkit-transform:rotate(360deg) } }
 
 @-webkit-keyframes reverse_orbit {
 from { -webkit-transform:rotate(0deg) }
-to { -webkit-transform:rotate(-360deg) } }*/
+to { -webkit-transform:rotate(-360deg) } }
 
 #twitter {
   bottom: 0px;
@@ -97,15 +78,15 @@ to { -webkit-transform:rotate(-360deg) } }*/
 }
 
 #gmail {
-  top: 95px;
-  margin-top: -26px;
   left: 0px;
+  top: 110px;
+  margin-top: -28px;
 }
 
 #linked_in {
-  top: 95px;
-  margin-top: -26px;
   right: 0px;
+  top: 110px;
+  margin-top: -28px;
 }
 
 #twitter:hover,
