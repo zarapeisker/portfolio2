@@ -1,0 +1,312 @@
+/*h1 {
+  text-align: center;
+  font-family: 'Sniglet', cursive;
+  color: white;
+}*/
+
+body {
+  background-image: url("bubbles.jpg");
+  background-repeat: no-repeat;
+  background-size: 1500px 1196px;
+  background-attachment: fixed;
+}
+
+/*header {
+  padding-top:40px;
+}*/
+
+/*p {
+  vertical-align: middle;
+}*/
+
+#content {
+  border-radius: 50%;
+}
+
+#content, #icons {
+  width:220px;
+  height:220px;
+  top: 246px;
+  left: 150px;
+  border-radius: 50%;
+  /*border: 2px solid gold;*/
+  /*background-color:rgba(255, 255, 255, 0.25);*/
+  position: fixed;
+}
+
+#icons {
+  /*border: 2px solid white;*/
+  /*background-color:rgba(255, 255, 255, 0.25);*/
+
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-name:orbit;
+  -webkit-animation-duration:30s;
+}
+
+#content .item {
+  border-radius: 50%;
+}
+/*this is the anthlete pic*/
+#content .pic {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 110px;
+  margin-top: -54px;
+  left: 110px;
+  margin-left: -54px;
+  border: 4px solid black;
+}
+
+/*these are all the icons*/
+.icon {
+  position: absolute;
+  height: 56px;
+  width: 56px;
+  opacity: 0.5;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-name:reverse_orbit;
+  -webkit-animation-duration:30s;
+}
+
+/*ul.solarsystem li.earth span {
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-name:moon;*/
+
+/*@-webkit-keyframes orbit {
+from { -webkit-transform:rotate(0deg) }
+to { -webkit-transform:rotate(360deg) } }
+
+@-webkit-keyframes reverse_orbit {
+from { -webkit-transform:rotate(0deg) }
+to { -webkit-transform:rotate(-360deg) } }*/
+
+#twitter {
+  bottom: 0px;
+  left: 110px;
+  margin-left: -28px;
+}
+
+#github {
+  top: 0px;
+  left: 110px;
+  margin-left: -28px;
+}
+
+#gmail {
+  top: 95px;
+  margin-top: -26px;
+  left: 0px;
+}
+
+#linked_in {
+  top: 95px;
+  margin-top: -26px;
+  right: 0px;
+}
+
+#twitter:hover,
+#github:hover,
+#gmail:hover,
+#linked_in:hover {
+  opacity: 1;
+}
+
+#bubbles3, #bubbles5, #bubbles1 {
+  height: 250px;
+  width: 250px;
+}
+
+#bubbles4, #bubbles2, #bubbles6 {
+  height: 200px;
+  width: 200px;
+}
+
+#bubbles6, #little_bubbles6 {
+  -webkit-filter: hue-rotate(250deg);
+  margin-bottom: 20px;
+}
+
+#bubbles3, #little_bubbles3 {
+  -webkit-filter: hue-rotate(70deg);
+}
+
+#bubbles1, #little_bubbles1 {
+  -webkit-filter: hue-rotate(40deg);
+}
+
+#b4 {
+  position: absolute;
+  left: 45%;
+  top: 10%;
+}
+
+#b3 {
+  position: absolute;
+  left: 53%;
+  top: 47%;
+}
+
+#b5 {
+  position: absolute;
+  left: 35%;
+  top: 95%;
+}
+
+#b2 {
+  position: absolute;
+  left: 55%;
+  top: 135%;
+}
+
+#b1 {
+  position: absolute;
+  left: 40%;
+  top: 180%;
+}
+
+#b6 {
+  position: absolute;
+  left: 60%;
+  top: 225%;
+}
+
+.icons {
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+#shield, #edit {
+  margin-left: -30px;
+  margin-top: -43px;
+}
+
+#hash {
+  font-size: 80px;
+  margin-left: -38px;
+  margin-top: -55px;
+}
+
+#star {
+  margin-left: -29px;
+  margin-top: -46px;
+}
+
+#compass, #bullseye, #home {
+  margin-left: -28px;
+  margin-top: -33px;
+/*  -webkit-animation-duration: 3s;*/
+}
+
+.little_bubbles {
+  width: 20px;
+  height: 20px;
+}
+
+#navbar {
+  position: fixed;
+  left: 90%;
+  top: 50%;
+  margin-top: -130px;
+}
+
+body #b4 .galleries {
+  border-radius: 50%;
+  position: absolute;
+  height: 450px;
+  width: 450px !important;
+  top: 50%;
+  margin-top: -230px;
+  left: 50%;
+  margin-left: -225px;
+}
+
+p {
+  color: white;
+  font-size: 30px;
+}
+
+#text4 {
+  position: absolute;
+  left: 60%;
+  top: 15%;
+}
+
+/*ul.solarsystem li {
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-name:orbit;
+}*/
+/*ul.solarsystem li.earth span {
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-name:moon;
+}*/
+/* {-webkit-animation-duration:5s;}
+ul.solarsystem li.venus {-webkit-animation-duration:8s;}
+ul.solarsystem li.earth {-webkit-animation-duration:12s;}
+ul.solarsystem li.earth span {-webkit-animation-duration:2s;}
+ul.solarsystem li.mars {-webkit-animation-duration:20s;}
+ul.solarsystem li.asteroids_meteorids {-webkit-animation-duration:50s;}
+ul.solarsystem li.jupiter {-webkit-animation-duration:30s;}
+ul.solarsystem li.saturn {-webkit-animation-duration:60s;}
+ul.solarsystem li.uranus {-webkit-animation-duration:70s;}
+ul.solarsystem li.neptune {-webkit-animation-duration:100s;}
+ul.solarsystem li.pluto {-webkit-animation-duration:120s;}*/
+
+/*@-webkit-keyframes orbit {
+from { -webkit-transform:rotate(0deg) }
+to { -webkit-transform:rotate(360deg) } }*/
+
+
+/*#content .item.text {
+  height: 125px;
+  width: 125px;
+  line-height:125px;
+  margin:5px;
+  background-color: tan;
+  font-size: 18px;
+  font-family: 'Sniglet', cursive;
+}*/
+
+/*.shh, #content .item.text.this:hover span {display: none}*/
+
+/*#content .item.text.this:hover .shh {display: inline}*/
+
+/*.shh {
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}*/
+
+/*#content .item img {
+  position:relative;
+  top:20px;
+  right:-27px;
+  height: 100px;
+  width: 100px;
+  border-radius:50%;
+}*/
+
+/*#content .item.that {
+  position:relative;
+  top:-40px;
+  right:-20px;
+}*/
+
+/*#content .item.this {
+  position:relative;
+  top:20px;
+  left:15px;
+}
+
+#content .item.other {
+  position:relative;
+  bottom:10px;
+  left:-15px;
+}*/
